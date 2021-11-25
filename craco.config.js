@@ -1,10 +1,9 @@
-// const cracoModuleFederation = require('craco-module-federation');
-const cracoModuleFederation = require('craco-module-federation');
+const cracoModuleFederationPlugin = require('craco-module-federation');
 
 module.exports = {
   plugins: [
     {
-      plugin: cracoModuleFederation,
+      plugin: cracoModuleFederationPlugin,
     },
   ],
 };
